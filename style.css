@@ -11,11 +11,12 @@ body{
     border-radius: 8px;
     padding: 20px;
     margin-top: 2rem;
-    max-width: 400px;
+    max-width: max-content;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
 }
 .author-details img {
     width: 120px;
@@ -59,6 +60,7 @@ button {
     text-align: center;
     display: block;
     margin: 1.5rem auto 0 auto;
+    
 }
 #pic {
     display: block;
